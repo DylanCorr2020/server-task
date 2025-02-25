@@ -1,0 +1,37 @@
+# Next.js Specific
+.next/
+out/
+build/
+node_modules/
+yarn-error.log
+package-lock.json # If using npm
+yarn.lock       # If using yarn
+
+# CDK Specific
+cdk.out/
+.cdk.cache/
+*.template.json
+*.template.yaml
+cdk.context.json
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE Specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
