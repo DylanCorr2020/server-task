@@ -1,40 +1,8 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Buy Milk"
-    },
-    {
-      "id": "2",
-      "text": "help friend find a girl"
-    },
-    {
-      "id": "3",
-      "task": "go to the gym "
-    },
-    {
-      "id": "3",
-      "task": "go to the gym"
-    },
-    {
-      "id": "3",
-      "text": "add  Louis"
-    },
-    {
-      "id": "3",
-      "text": ""
-    },
-    {
-      "id": "3",
-      "text": "Louis"
-    },
-    {
-      "id": "3",
-      "text": "go to market "
-    },
-    {
-      "id": "6",
-      "text": "Learn English "
+      "id": "d2f718ac-b884-4364-80d7-b2d2ac98b2a1",
+      "text": "complete"
     }
   ]
 }

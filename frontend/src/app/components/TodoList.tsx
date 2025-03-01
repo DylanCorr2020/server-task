@@ -20,10 +20,6 @@ const TodoList: React.FC<TodoListProps> = ({tasks}) => {
     <tbody>
       {tasks.map((task) => <Task key = {task.id} task = {task} />
       )}
-      <tr>
-        <td>Cy Ganderton</td>
-        <td>Quality Control Specialist</td>
-      </tr>
     </tbody>
   </table>
 </div>

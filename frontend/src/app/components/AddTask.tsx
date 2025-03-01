@@ -5,6 +5,7 @@ import { AiOutlinePlus } from 'react-icons/ai'
 import Modal from './Modal'
 import { addTodo } from '../../../apis'
 import { useRouter } from 'next/navigation'
+import { v4 as uuidv4 } from 'uuid';
 
 const addTask = () => {
   
@@ -15,7 +16,7 @@ const addTask = () => {
   const handleSubmitNewTodo: FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
     await addTodo({
-      id: "6",
+      id: uuidv4(),
       text : newTaskvalue,
     });
     setNewTaskValue('')
