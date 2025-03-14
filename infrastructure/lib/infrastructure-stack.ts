@@ -49,7 +49,7 @@ todoTable.grantReadWriteData(tasksLambda);
 
 
 //Define our API Gateway endpoints
-const posts = api.root.addResource('tasks');
+const tasks = api.root.addResource('tasks');
 
 
 
@@ -58,9 +58,15 @@ const tasksIntegration = new apigateway.LambdaIntegration(tasksLambda);
 
 
 // 9. Define our API Gateway methods
-posts.addMethod('GET', tasksIntegration, {
+tasks.addMethod('GET', tasksIntegration, {
   
 });
+
+tasks.addMethod('POST', tasksIntegration, {
+  
+});
+
+
 
 
 // Output the API URL

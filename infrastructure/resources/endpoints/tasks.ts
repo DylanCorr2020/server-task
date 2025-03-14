@@ -1,5 +1,6 @@
 import { APIGatewayProxyEvent } from 'aws-lambda';
 import { getAll } from  '../handlers/tasks/get-all';
+import { create } from '../handlers/tasks/create';
 
 
 export const handler = async (event: APIGatewayProxyEvent) => {
@@ -9,7 +10,7 @@ export const handler = async (event: APIGatewayProxyEvent) => {
       case 'GET':
         return await getAll();
       case 'POST':
-        //return await create(event.body);
+       return await create(event.body);
       default:
         return {
           statusCode: 400,
